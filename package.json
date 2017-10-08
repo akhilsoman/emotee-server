@@ -4,10 +4,10 @@
   "author": "akhilsoman@gmail.com",
   "private": true,
   "engines": {
-    "node": "7.5.0"
+    "node": ">=7.5.0"
   },
   "scripts": {
-    "start": "node --inspect server/app.js"
+    "start": "node server/app.js"
   },
   "dependencies": {
     "body-parser": "^1.18.1",
