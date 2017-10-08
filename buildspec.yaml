@@ -1,19 +1,18 @@
 version: 0.1
-
-phases:
-  install:
-    commands:
-      - npm install
-  pre_build:
-    commands:
-      - echo Installing source NPM dependencies...
-  build:
-    commands:
-      - echo Build started on `date`
-      - echo Compiling the Node.js code
-  post_build:
-    commands:
-      - echo Build completed on `date`
-artifacts:
-  files:
-    - '**/*'
+  phases:
+    install:
+      commands:
+        - npm install
+    pre_build:
+      commands:
+        - echo Installing source NPM dependencies...
+    build:
+      commands:
+        - echo Build started on `date`
+        - echo Compiling the Node.js code
+    post_build:
+      commands:
+        - echo Build completed on `date`
+  artifacts:
+    files:
+      - '**/*'
