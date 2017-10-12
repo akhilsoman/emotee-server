@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install
+      - echo Installing source NPM dependencies...
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
