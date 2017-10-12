@@ -1,12 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /server
-    destination: /webapps/server
-  - source: /uploads
-    destination: /webapps/uploads
-  - source: /node_modules
-    destination: /webapps/node_modules
+  - source: /
+    destination: /dev
 hooks:
   ApplicationStart:
     - location: scripts/start-server.sh
