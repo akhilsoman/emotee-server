@@ -32,6 +32,10 @@ app.use(bodyParser.json())
 //Api routing
 app.post('/api/uploadImage', uplaod.single('emoteeinp'), api.getEmotionIndex);
 
+//Adding dummy response
+app.get('/', (req, res) => {
+  res.send('HEY!')
+})
 //starting server
 const server = app.listen(port, function () {
   console.log ('Server started on port: ' + server.address().port);
