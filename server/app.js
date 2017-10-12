@@ -19,7 +19,7 @@ const storage = multer.diskStorage({
 const uplaod = multer({ /*dest: 'uploads/'*/ storage: storage});
 
 
-const port = (process.argv.slice(2).length > 0) ? parseInt(process.argv.slice(2)) : 5000 ;
+const port = (process.argv.slice(2).length > 0) ? parseInt(process.argv.slice(2)) : 8080 ;
 // setting up express server
 
 const app = express();
