@@ -1,4 +1,5 @@
 // api logic
+"use strict"
 const makerequest = require('request');
 const config = require('./config');
 const _ = require('lodash');
