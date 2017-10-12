@@ -7,7 +7,7 @@
     "node": ">=7.5.0"
   },
   "scripts": {
-    "start": "node server/app.js"
+    "start": "pm2 start server/app.js"
   },
   "dependencies": {
     "body-parser": "^1.18.1",
